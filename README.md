@@ -2,6 +2,7 @@
 Implementation of perceptron algorithm with MNIST dataset. 
 
 Here is the link to the data - https://redirect.cs.umbc.edu/courses/graduate/678/fall22/mnist_data.txt
+
 Link to the labels - https://redirect.cs.umbc.edu/courses/graduate/678/fall22/mnist_labels.txt
 
 Each row in the data file is 784 integers that represent the grayscale values of a 28x28 handwritten digit. Each row in the labels file is a single digit in the range 0-9 and is in a 1-to-1 correspondence with rows in the data file. 
