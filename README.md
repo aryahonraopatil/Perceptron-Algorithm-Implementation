@@ -1,10 +1,14 @@
-# Implementation of perceptron algorithm with MNIST dataset. 
+# Implementation of perceptron algorithm with MNIST dataset
 
 ## Understanding the algorithm
 
 The Perceptron algorithm is used for supervised learning of binary classifiers. It adjusts its weights based on misclassifications in the training data until a correct classification is achieved for all training examples.
 
+![Algorithm](images/algo.png)
+
 The perceptron model takes an input, aggregates it (weighted sum), and returns 1 only if the aggregated sum is more than some threshold else returns 0. Rewriting the threshold as shown above and making it a constant input with a variable weight, we would end up with something like the following:
+
+![Explanation](images/fig.png)
 
 The Perceptron algorithm guarantees to converge if the data is linearly separable; if a hyperplane can be drawn to separate the positive and negative examples. However, it might not converge if the data is not linearly separable.
 
